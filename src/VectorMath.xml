@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VectorMath</name>
+    </assembly>
+    <members>
+        <member name="T:VectorMath.Vector3">
+            <summary>
+            A class representing a 3-element vector using doubles.
+            </summary>
+        </member>
+        <member name="F:VectorMath.Vector3.X">
+            <summary>
+            Gets or sets the X property
+            </summary>
+        </member>
+        <member name="F:VectorMath.Vector3.Y">
+            <summary>
+            Gets or sets the Y property
+            </summary>
+        </member>
+        <member name="F:VectorMath.Vector3.Z">
+            <summary>
+            Gets or sets the Z property
+            </summary>
+        </member>
+        <member name="M:VectorMath.Vector3.#ctor">
+            <summary>
+            Constructs a new instance of Vector3 with
+            X, Y, and Z properties set to 0.
+            </summary>
+        </member>
+        <member name="M:VectorMath.Vector3.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Constructs a new instance of Vector3 with
+            the supplied values for X, Y, and Z.
+            <param name="X">A double precision number for the x component of the vector.</param>
+            <param name="Y">A double precision number for the y component of the vector.</param>
+            <param name="Z">A double precision number for the z component of the vector.</param>
+            </summary>
+        </member>
+    </members>
+</doc>
